@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000; // Choose any port you prefer
+const port = process.env.PORT || 3000;
 
 // Define your JSON response
 const jsonResponse = {
